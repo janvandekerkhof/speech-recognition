@@ -1,0 +1,5 @@
+function plotDynamicFeatures(filename)
+    [mfcc, sg, f, t] = getFeatures(filename);
+    [vel, acc] = computeDynamicFeatures(mfcc);
+    subplot(1,
+    
